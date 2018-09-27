@@ -1,0 +1,29 @@
+h1 {
+float: left;
+margin-left: 250px;
+background-color: #4aaaa5;
+font-family: 'Georgia';
+color: white;
+
+}
+
+ul{
+    float: right;
+    margin-right: 250px;
+}
+
+li {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+div{
+    padding: 70px;
+}
+
+h2 {
+   border-bottom-width: 10px;
+}
