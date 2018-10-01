@@ -1,51 +1,40 @@
-h1 {
-float: left;
-margin-left: 100px;
-background-color: #4aaaa5;
-font-family: 'Georgia';
-color: white;
-
+.mainContent{
+    border: 1px solid grey;
+    padding: 20px;
+    
 }
 
-ul{
-    float: right;
-    margin-right: 100px;
+h2{
+    border-bottom: 2px solid grey;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+ul {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.header-name {
+    width: 50%;
+    float: left;
+    background-color: teal;
+}
+
+.header-navbar {
+    width: 50%;
+    float: left;
+}
+.header {
+    padding-bottom: 80px;
+}
+
+.name {
+    margin-left: 20px;
 }
 
 li {
     display: inline;
-    color: white;
-    text-align: center;
-    padding: 5px 5px;
-    border-right: 1px solid #bbb;
-    
-}
-    
-li:last-child {
-        border-right: none;
-    }
-    
-
-
-div{
-    padding: 100px;
-
-}
-
-h2{
-    color: #4aaaa5;
-    border-bottom: 6px solid #cccccc;
-
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover{
-    color: #4aaaa5;
 }
